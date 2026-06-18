@@ -1,0 +1,511 @@
+/* ============================================
+ * 🐶🐱 橹穆 AO3 皮肤
+ * 
+ * ⚠️ 请勿去除本注释二次发布
+ * ⚠️ 请勿商用，修改请署名原作者
+ * 
+ * ============================================ */
+
+:root {
+  /* ----- 蓝粉主题变量 ----- */
+  --primary-blue: #aee4ff;
+  --primary-pink: #ffccd5;
+  --pink-soft: #ffe3e8;
+  --blue-soft: #d9f0ff;
+  
+  --bg-page: #FFFFFF;
+  --bg-card: #FFFFFF;
+  --bg-card-solid: #FFFFFF;
+  --bg-card-solid-2: #FFFFFF;
+  --bg-card-hover: rgba(0, 0, 0, 0.03);
+  --bg-card-strong: rgba(0, 0, 0, 0.06);
+  --bg-current: #000000;
+  --bg-accent: #f5faff;
+  --bg-input: rgba(255, 255, 255, 0.9);
+  --bg-input-focus: rgba(255, 255, 255, 1);
+  --bg-modal: #FFFFFF;
+  --bg-modal-2: #FFFFFF;
+  --bg-stat: rgba(255, 255, 255, 0.9);
+  --bg-tooltip: rgba(0, 0, 0, 0.85);
+  --bg-track: rgba(255, 255, 255, 0.8);
+  --bg-card-light: rgba(255, 255, 255, 0.6);
+  --bg-card-2: rgba(255, 255, 255, 0.65);
+  --bg-card-3: rgba(255, 255, 255, 0.72);
+  --bg-card-4: rgba(255, 255, 255, 0.85);
+  --bg-card-tint: rgba(174, 228, 255, 0.12);
+  --bg-footer-hover: rgba(174, 228, 255, 0.2);
+  --border-bright: rgba(0, 0, 0, 0.08);
+  --border-soft: rgba(0, 0, 0, 0.05);
+  --border-card: #ffccd5;
+  --text-main: #2c2c2c;
+  --text-strong: #1a1a1a;
+  --text-link: #e695b0;
+  --text-visited: #b0a0b5;
+  --text-on-dark: #FFFFFF;
+  --text-placeholder: rgba(0, 0, 0, 0.3);
+  --link-underline: #ffa5c0;
+  --bar-fill-light: #ffd9e2;
+  --bar-fill-mid: #ffb3c6;
+  --bar-fill-dark: #ff8fac;
+  --brown-mid: #d47a9e;
+  --shadow-color-1: rgba(0, 0, 0, 0.04);
+  --shadow-color-2: rgba(0, 0, 0, 0.06);
+  --shadow-color-3: rgba(0, 0, 0, 0.08);
+  --shadow-color-4: rgba(0, 0, 0, 0.10);
+  --shadow-color-5: rgba(0, 0, 0, 0.15);
+  --shadow-color-6: rgba(0, 0, 0, 0.25);
+  --shadow-warm-1: rgba(174, 228, 255, 0.15);
+  --shadow-warm-2: rgba(255, 204, 213, 0.2);
+  --shadow-warm-3: rgba(174, 228, 255, 0.25);
+  --border-warm-1: rgba(255, 204, 213, 0.12);
+  --border-warm-2: rgba(174, 228, 255, 0.15);
+  --border-warm-3: rgba(255, 204, 213, 0.2);
+  --border-warm-4: rgba(0, 0, 0, 0.08);
+  --border-warm-5: rgba(0, 0, 0, 0.12);
+  --border-warm-6: rgba(0, 0, 0, 0.15);
+  --border-warm-7: rgba(0, 0, 0, 0.18);
+  --border-warm-8: rgba(0, 0, 0, 0.22);
+  --border-warm-9: rgba(0, 0, 0, 0.28);
+  --border-warm-10: rgba(0, 0, 0, 0.4);
+  --shadow-pink-1: rgba(255, 204, 213, 0.08);
+  --shadow-pink-2: rgba(255, 204, 213, 0.12);
+  --shadow-pink-3: rgba(174, 228, 255, 0.15);
+  --shadow-pink-4: rgba(255, 204, 213, 0.18);
+  --shadow-pink-5: rgba(174, 228, 255, 0.25);
+  --icon-tint-main: brightness(0.2) sepia(1) hue-rotate(-10deg) saturate(2);
+}
+
+:root {
+  --radius-card: 20px;
+  --radius-button: 10px;
+  --radius-pill: 9999px;
+  --max-width-list: 53rem;
+  --max-width-work: 1000px;
+}
+
+/* ===== 全局背景 ===== */
+html, body, #outer, #inner, #main, #dashboard, #header, #header .heading {
+  background-color: var(--bg-page) !important;
+}
+
+/* 优雅选中 */
+::selection {
+  background: rgba(174, 228, 255, 0.35) !important;
+  color: #2c2c2c !important;
+}
+::-moz-selection {
+  background: rgba(174, 228, 255, 0.35) !important;
+  color: #2c2c2c !important;
+}
+
+/* ===== 链接 & 文本 ===== */
+#main a {
+  color: var(--text-main);
+  transition: color 0.2s, text-shadow 0.2s;
+}
+#main a:hover {
+  color: var(--text-link) !important;
+  text-shadow: 0 0 4px rgba(255, 204, 213, 0.4);
+}
+
+/* ===== 头部图标 ===== */
+#header #greeting .dropdown > a[href*="/works/new"],
+#header #greeting .dropdown > a[href*="/users/"],
+#header #greeting a[href*="/users/logout"] {
+  display: inline-block !important;
+  width: 22px !important;
+  height: 22px !important;
+  padding: 0 !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: contain !important;
+  background-color: transparent !important;
+  color: transparent !important;
+  font-size: 0 !important;
+  line-height: 0 !important;
+  text-indent: -9999px !important;
+  overflow: hidden !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+#header #greeting .dropdown > a[href*="/works/new"] {
+  background-image: url("https://github.com/Ambra1720/lumu/blob/icon/Write.png") !important;
+}
+#header #greeting .dropdown > a[href*="/users/"] {
+  background-image: url("https://github.com/Ambra1720/lumu/blob/icon/Profile.png") !important;
+}
+#header #greeting a[href*="/users/logout"] {
+  background-image: url("https://github.com/Ambra1720/lumu/blob/icon/Logout.png") !important;
+}
+
+/* ===== Logo 大图 ===== */
+#header h1.heading a {
+  display: block !important;
+  margin: 0 auto !important;
+  background-image: url("https://github.com/Ambra1720/lumu/blob/icon/LOGO.png") !important;
+  background-repeat: no-repeat !important;
+  background-position: center bottom !important;
+  background-size: contain !important;
+  height: 160px !important;
+  width: 100% !important;
+  color: transparent !important;
+  border: none !important;
+}
+
+/* ===== 页脚装饰 ===== */
+#footer::before {
+  content: "🐶⋆ ｡:ﾟ･*☽:ﾟ･⋆ ｡✰⋆ ｡:ﾟ･*☽:ﾟ･⋆ ｡✰⋆ ｡:ﾟ･*🐱";
+  display: block;
+  text-align: center;
+  font-size: 1.2rem;
+  letter-spacing: 4px;
+  margin-bottom: 12px;
+  opacity: 0.8;
+  color: var(--primary-pink);
+}
+
+/* ===== 卡片边框 & 阴影 ===== */
+.news.index.group li.post.group,
+li.work.blurb,
+li.bookmark.blurb,
+li.series.blurb,
+li.mystery.blurb,
+ol.collection.index li.collection.blurb.group,
+.collection li.bookmark,
+.user.home .index li.blurb {
+  border: 1.5px solid var(--border-card) !important;
+  border-radius: 20px !important;
+  box-shadow: 0px 10px 25px var(--shadow-color-2), 0 0 0 1px rgba(255,204,213,0.15) !important;
+}
+
+/* ===== 按钮 & 动作 ===== */
+.actions a,
+.action,
+.actions button,
+input[type="submit"],
+button {
+  background: var(--bg-card) !important;
+  border: 1px solid var(--primary-pink) !important;
+  border-radius: 30px !important;
+  box-shadow: 0 2px 6px var(--shadow-pink-2) !important;
+  color: var(--text-main) !important;
+  transition: all 0.2s ease;
+}
+.actions a:hover,
+.actions button:hover,
+input[type="submit"]:hover {
+  background: var(--primary-pink) !important;
+  color: #2c2c2c !important;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 12px rgba(255,204,213,0.3) !important;
+}
+
+/* ===== Kudo 提示 ===== */
+#kudos_message.notice::before {
+  content: "🐶 Magic has been cast! Thank you for your love.🐱" !important;
+  font-size: 14pt !important;
+  color: var(--text-main) !important;
+  font-family: "Georgia", serif;
+  font-weight: bold;
+}
+#kudos_message.kudos_error::before {
+  content: "🐶 You have already cast this spell! (Kudos already left) 🐱" !important;
+  font-size: 14pt !important;
+  color: var(--text-main) !important;
+}
+
+/* ===== 头部装饰线条 ===== */
+#header::after {
+  content: "♡︎★︎♡ﾟ︎･*:.｡ ｡.:*･ﾟ♡︎★︎♡ﾟ︎･*:.｡ ｡.:*♡︎★︎♡ﾟ" !important;
+  display: block !important;
+  text-align: center;
+  font-size: 1.3rem;
+  letter-spacing: 6px;
+  margin-top: 6px;
+  margin-bottom: 12px;
+  color: var(--primary-pink);
+}
+
+/* ===== 统计图标 ===== */
+dl.stats dd:nth-of-type(1)::before {
+  background: url("https://github.com/Ambra1720/lumu/blob/icon/comments.png") no-repeat center;
+  background-size: contain;
+}
+dl.stats dd:nth-of-type(2)::before {
+  background: url("https://github.com/Ambra1720/lumu/blob/icon/kudos.png") no-repeat center;
+  background-size: contain;
+}
+dl.stats dd.kudos::before {
+  background: url("https://github.com/Ambra1720/lumu/blob/icon/kudos.png") no-repeat center;
+  background-size: contain;
+}
+dl.stats dd.words::before {
+  background: url("https://github.com/Ambra1720/lumu/blob/icon/words.png") no-repeat center;
+  background-size: contain;
+}
+dl.stats dd.chapters::before {
+  background: url("https://github.com/Ambra1720/lumu/blob/icon/chapters.png") no-repeat center;
+  background-size: contain;
+}
+dl.stats dd.bookmarks::before {
+  background: url("https://github.com/Ambra1720/lumu/blob/icon/bookmark.png") no-repeat center;
+  background-size: contain;
+}
+dl.stats dd.hits::before {
+  background: url("https://github.com/Ambra1720/lumu/blob/icon/hits.png") no-repeat center;
+  background-size: contain;
+}
+dl.stats dd.collections::before {
+  background: url("https://github.com/Ambra1720/lumu/blob/icon/collections.png") no-repeat center;
+  background-size: contain;
+}
+dl.stats dd.subscriptions::before {
+  background: url("https://github.com/Ambra1720/lumu/blob/icon/subscriptions.png") no-repeat center;
+  background-size: contain;
+}
+
+/* ===== 标签分类标题（猫狗emoji） ===== */
+ul.tags li.warnings:first-child:before {
+  content: "⚠️🐱 Archive Warnings:" !important;
+  background-image: none !important;
+  padding-left: 0 !important;
+}
+li.warnings + li.relationships:before {
+  content: "💕🐶 Relationships:" !important;
+  background-image: none !important;
+}
+li.relationships + li.characters:before {
+  content: "👤🐱 Characters:" !important;
+  background-image: none !important;
+}
+li.characters + li.freeforms:before {
+  content: "🏷️🐶 Additional Tags:" !important;
+  background-image: none !important;
+}
+
+/* ===== 评级 / 分类图标 ===== */
+.blurb ul.required-tags li .rating-general-audience {
+  background-image: url("https://github.com/Ambra1720/lumu/blob/icon/G.png") !important;
+}
+.blurb ul.required-tags li .rating-teen {
+  background-image: url("https://github.com/Ambra1720/lumu/blob/icon/T.png") !important;
+}
+.blurb ul.required-tags li .rating-mature {
+  background-image: url("https://github.com/Ambra1720/lumu/blob/icon/M.png") !important;
+}
+.blurb ul.required-tags li .rating-explicit {
+  background-image: url("https://github.com/Ambra1720/lumu/blob/icon/E.png") !important;
+}
+.blurb ul.required-tags li .rating-notrated {
+  background-image: url("https://github.com/Ambra1720/lumu/blob/icon/no.png") !important;
+}
+.blurb ul.required-tags li .category-gen {
+  background-image: url("https://github.com/Ambra1720/lumu/blob/icon/GEN.png") !important;
+}
+.blurb ul.required-tags li .category-slash {
+  background-image: url("https://github.com/Ambra1720/lumu/blob/icon/MM.png") !important;
+}
+.blurb ul.required-tags li .category-femslash {
+  background-image: url("https://github.com/Ambra1720/lumu/blob/icon/FF.png") !important;
+}
+.blurb ul.required-tags li .category-het {
+  background-image: url("https://github.com/Ambra1720/lumu/blob/icon/FM.png") !important;
+}
+.blurb ul.required-tags li .category-multi {
+  background-image: url("https://github.com/Ambra1720/lumu/blob/icon/Multi.png") !important;
+}
+.blurb ul.required-tags li .category-other {
+  background-image: url("https://github.com/Ambra1720/lumu/blob/icon/Other.png") !important;
+}
+.blurb ul.required-tags li .warning-yes {
+  background-image: url("https://github.com/Ambra1720/lumu/blob/icon/warning-yes.png") !important;
+}
+.blurb ul.required-tags li .warning-choosenotto {
+  background-image: url("https://github.com/Ambra1720/lumu/blob/icon/warning-cn.png") !important;
+}
+.blurb ul.required-tags li .warning-no {
+  background-image: url("https://github.com/Ambra1720/lumu/blob/icon/no.png") !important;
+}
+.blurb ul.required-tags li .external-work {
+  background-image: url("https://github.com/Ambra1720/lumu/blob/icon/external.png") !important;
+}
+.blurb ul.required-tags li .complete-yes {
+  background-image: url("https://github.com/Ambra1720/lumu/blob/icon/complete.png") !important;
+}
+.blurb ul.required-tags li .complete-no {
+  background-image: url("https://github.com/Ambra1720/lumu/blob/icon/incomplete.png") !important;
+}
+
+/* ===== 书签隐私状态图标 ===== */
+.status .rec {
+  background-image: url("https://github.com/Ambra1720/lumu/blob/icon/rec-star.png") !important;
+}
+.status .public {
+  background-image: url("https://github.com/Ambra1720/lumu/blob/icon/public.png") !important;
+}
+.status .private {
+  background-image: url("https://github.com/Ambra1720/lumu/blob/icon/private-lock.png") !important;
+}
+.status .hidden {
+  background-image: url("https://github.com/Ambra1720/lumu/blob/icon/hidden.png") !important;
+}
+
+/* ===== 分页箭头 ===== */
+html body #main ol.pagination li.previous a {
+  background-image: url("https://github.com/Ambra1720/lumu/blob/icon/prev.png") !important;
+}
+html body #main ol.pagination li.next a {
+  background-image: url("https://github.com/Ambra1720/lumu/blob/icon/next.png") !important;
+}
+
+/* ===== 神秘头像 ===== */
+.mystery.header.picture.module div.icon {
+  background-image: url("https://github.com/Ambra1720/lumu/blob/icon/mystery.png") !important;
+  background-size: contain;
+}
+
+/* ===== 作品摘要 & 注释标题 ===== */
+.summary h3.heading::before {
+  content: "🐶 ° ₊ ʚ Summary ɞ ₊ ° 🐱" !important;
+}
+.notes h3.heading::before {
+  content: "🐶 ° ₊ ʚ Notes ɞ ₊ ° 🐱" !important;
+}
+
+/* ===== 作品页作者行装饰 ===== */
+#workskin h3.byline::after {
+  content: "♡ ⟡⋆.˚˚₊‧꒰ა ♱ ໒꒱ ‧₊˚⊹  ˖⟡♡" !important;
+  background-image: none !important;
+  width: auto !important;
+  height: auto !important;
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 12px;
+  color: var(--primary-pink);
+}
+
+/* ===== 标签悬停装饰 ===== */
+#main .blurb a.tag:active::before,
+#main .blurb a.tag:focus::before {
+  content: "♡︎ " !important;
+}
+#main .blurb a.tag:active::after,
+#main .blurb a.tag:focus::after {
+  content: " ♡︎" !important;
+}
+
+/* ===== 下拉菜单等 ===== */
+#greeting .menu, #header .menu {
+  border-radius: 20px !important;
+  background: var(--bg-modal) !important;
+  border: 1px solid var(--primary-pink) !important;
+}
+
+/* ===== 输入框 ===== */
+input, textarea, select {
+  background: var(--bg-input) !important;
+  border: 1px solid var(--primary-pink) !important;
+  border-radius: 16px !important;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.02), 0 0 0 1px rgba(174,228,255,0.2) !important;
+}
+input:focus, textarea:focus {
+  border-color: var(--primary-blue) !important;
+  box-shadow: 0 0 0 3px rgba(174,228,255,0.25) !important;
+}
+
+/* ===== 顶部导航 ===== */
+#header ul.primary li a {
+  background: transparent !important;
+  color: var(--text-main) !important;
+  border-radius: 30px !important;
+  padding: 5px 12px !important;
+}
+#header ul.primary li a:hover {
+  background: var(--primary-pink) !important;
+  color: #2c2c2c !important;
+}
+
+/* ===== 页码当前样式 ===== */
+.pagination .current {
+  background: var(--primary-blue) !important;
+  color: #1a1a1a !important;
+  border-radius: 30px !important;
+}
+
+/* ===== 滚动条 ===== */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--primary-pink) var(--primary-blue);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--primary-pink);
+  border-radius: 20px;
+}
+::-webkit-scrollbar-track {
+  background: var(--primary-blue);
+  border-radius: 20px;
+}
+
+/* ===== 页面水印彩蛋（猫狗） ===== */
+body::after {
+  content: "🐱₊⁺♡₊⁺🐶";
+  position: fixed;
+  bottom: 6px;
+  right: 12px;
+  font-size: 12px;
+  opacity: 0.15;
+  pointer-events: none;
+  z-index: 9999;
+  font-family: monospace;
+}
+
+#main .listbox, #dashboard .listbox,
+#main fieldset.listbox, #dashboard fieldset.listbox {
+  background: transparent !important;
+}
+.blurb ul.required-tags li .rating,
+.blurb ul.required-tags li .category,
+.blurb ul.required-tags li .warnings,
+.blurb ul.required-tags li .iswip {
+  filter: var(--icon-tint-main);
+}
+
+/* ===== 头像容器需为相对定位，以便伪元素叠加 ===== */
+.home .primary.header.module .icon {
+  position: relative !important;
+  overflow: visible !important;  /* 让装饰框可以超出头像边界 */
+}
+
+/* ===== 头像外围装饰框 ===== */
+.home .primary.header.module .icon::after {
+  content: "" !important;
+  display: block !important;
+  position: absolute !important;
+  left: 50% !important;
+  top: 50% !important;
+  width: 140px !important;
+  height: 140px !important;
+  margin-left: -70px !important;
+  margin-top: -70px !important;
+  background-image: url("https://github.com/Ambra1720/lumu/blob/icon/avatar-frame.png.png") !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: contain !important;
+  z-index: 3 !important;
+  pointer-events: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* ----- 确保头像图片在框内正常显示（圆角） ----- */
+.home .primary.header.module .icon img {
+  display: block !important;
+  width: 96px !important;
+  height: 96px !important;
+  border-radius: 50% !important;
+  position: relative !important;
+  z-index: 2 !important;
+  border: 2px solid var(--primary-pink) !important;
+  box-shadow: 0 0 0 4px rgba(174, 228, 255, 0.3) !important;
+}
+
