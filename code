@@ -6,7 +6,7 @@
  * ============================================ */
 
 :root {
-  /* ----- 蓝粉主题变量 ----- */
+  /* ===== 橹穆蓝粉主题 ===== */
   --primary-blue: #aee4ff;
   --primary-pink: #ffccd5;
   --pink-soft: #ffe3e8;
@@ -87,7 +87,7 @@ html, body, #outer, #inner, #main, #dashboard, #header, #header .heading {
   background-color: var(--bg-page) !important;
 }
 
-/* 优雅选中 */
+/* ===== 选中 ===== */
 ::selection {
   background: rgba(174, 228, 255, 0.35) !important;
   color: #2c2c2c !important;
@@ -496,7 +496,7 @@ body::after {
   box-shadow: none !important;
 }
 
-/* ----- 确保头像图片在框内正常显示（圆角） ----- */
+/* ===== 确保头像图片在框内正常显示 ===== */
 .home .primary.header.module .icon img {
   display: block !important;
   width: 96px !important;
