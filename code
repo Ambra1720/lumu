@@ -2,8 +2,7 @@
  * 🐶🐱 橹穆AO3皮肤
  * by Ambra
  * ⚠️ 请勿去除本注释二次发布
- * ⚠️ 请勿商用，修改请署名原作者
- * 
+ * ⚠️ 请勿商用
  * ============================================ */
 
 :root {
@@ -129,20 +128,20 @@ html, body, #outer, #inner, #main, #dashboard, #header, #header .heading {
   box-shadow: none !important;
 }
 #header #greeting .dropdown > a[href*="/works/new"] {
-  background-image: url("https://github.com/Ambra1720/lumu/blob/icon/Write.png") !important;
+  background-image: url(https://raw.githubusercontent.com/Ambra1720/lumu/icon/Write.png") !important;
 }
 #header #greeting .dropdown > a[href*="/users/"] {
-  background-image: url("https://github.com/Ambra1720/lumu/blob/icon/Profile.png") !important;
+  background-image: url("https://raw.githubusercontent.com/Ambra1720/lumu/icon/Profile.png") !important;
 }
 #header #greeting a[href*="/users/logout"] {
-  background-image: url("https://github.com/Ambra1720/lumu/blob/icon/Logout.png") !important;
+  background-image: url("https://raw.githubusercontent.com/Ambra1720/lumu/icon/Logout.png") !important;
 }
 
 /* ===== Logo 大图 ===== */
 #header h1.heading a {
   display: block !important;
   margin: 0 auto !important;
-  background-image: url("https://github.com/Ambra1720/lumu/blob/icon/LOGO.png") !important;
+  background-image: url("https://raw.githubusercontent.com/Ambra1720/lumu/icon/LOGO.png") !important;
   background-repeat: no-repeat !important;
   background-position: center bottom !important;
   background-size: contain !important;
@@ -228,39 +227,39 @@ input[type="submit"]:hover {
 
 /* ===== 统计图标 ===== */
 dl.stats dd:nth-of-type(1)::before {
-  background: url("https://github.com/Ambra1720/lumu/blob/icon/comments.png") no-repeat center;
+  background: url("https://raw.githubusercontent.com/Ambra1720/lumu/icon/comments.png") no-repeat center;
   background-size: contain;
 }
 dl.stats dd:nth-of-type(2)::before {
-  background: url("https://github.com/Ambra1720/lumu/blob/icon/kudos.png") no-repeat center;
+  background: url("https://raw.githubusercontent.com/Ambra1720/lumu/icon/kudos.png") no-repeat center;
   background-size: contain;
 }
 dl.stats dd.kudos::before {
-  background: url("https://github.com/Ambra1720/lumu/blob/icon/kudos.png") no-repeat center;
+  background: url("https://raw.githubusercontent.com/Ambra1720/lumu/icon/kudos.png") no-repeat center;
   background-size: contain;
 }
 dl.stats dd.words::before {
-  background: url("https://github.com/Ambra1720/lumu/blob/icon/words.png") no-repeat center;
+  background: url("https://raw.githubusercontent.com/Ambra1720/lumu/icon/words.png") no-repeat center;
   background-size: contain;
 }
 dl.stats dd.chapters::before {
-  background: url("https://github.com/Ambra1720/lumu/blob/icon/chapters.png") no-repeat center;
+  background: url("https://raw.githubusercontent.com/Ambra1720/lumu/icon/chapters.png") no-repeat center;
   background-size: contain;
 }
 dl.stats dd.bookmarks::before {
-  background: url("https://github.com/Ambra1720/lumu/blob/icon/bookmark.png") no-repeat center;
+  background: url("https://raw.githubusercontent.com/Ambra1720/lumu/icon/bookmark.png") no-repeat center;
   background-size: contain;
 }
 dl.stats dd.hits::before {
-  background: url("https://github.com/Ambra1720/lumu/blob/icon/hits.png") no-repeat center;
+  background: url("https://raw.githubusercontent.com/Ambra1720/lumu/icon/hits.png") no-repeat center;
   background-size: contain;
 }
 dl.stats dd.collections::before {
-  background: url("https://github.com/Ambra1720/lumu/blob/icon/collections.png") no-repeat center;
+  background: url("https://raw.githubusercontent.com/Ambra1720/lumu/icon/collections.png") no-repeat center;
   background-size: contain;
 }
 dl.stats dd.subscriptions::before {
-  background: url("https://github.com/Ambra1720/lumu/blob/icon/subscriptions.png") no-repeat center;
+  background: url("https://raw.githubusercontent.com/Ambra1720/lumu/icon/subscriptions.png") no-repeat center;
   background-size: contain;
 }
 
@@ -285,82 +284,82 @@ li.characters + li.freeforms:before {
 
 /* ===== 评级 / 分类图标 ===== */
 .blurb ul.required-tags li .rating-general-audience {
-  background-image: url("https://github.com/Ambra1720/lumu/blob/icon/G.png") !important;
+  background-image: url("https://raw.githubusercontent.com/Ambra1720/lumu/icon/G.png") !important;
 }
 .blurb ul.required-tags li .rating-teen {
-  background-image: url("https://github.com/Ambra1720/lumu/blob/icon/T.png") !important;
+  background-image: url("https://raw.githubusercontent.com/Ambra1720/lumu/icon/T.png") !important;
 }
 .blurb ul.required-tags li .rating-mature {
-  background-image: url("https://github.com/Ambra1720/lumu/blob/icon/M.png") !important;
+  background-image: url("https://raw.githubusercontent.com/Ambra1720/lumu/icon/M.png") !important;
 }
 .blurb ul.required-tags li .rating-explicit {
-  background-image: url("https://github.com/Ambra1720/lumu/blob/icon/E.png") !important;
+  background-image: url("https://raw.githubusercontent.com/Ambra1720/lumu/icon/E.png") !important;
 }
 .blurb ul.required-tags li .rating-notrated {
-  background-image: url("https://github.com/Ambra1720/lumu/blob/icon/no.png") !important;
+  background-image: url("https://raw.githubusercontent.com/Ambra1720/lumu/icon/no.png") !important;
 }
 .blurb ul.required-tags li .category-gen {
-  background-image: url("https://github.com/Ambra1720/lumu/blob/icon/GEN.png") !important;
+  background-image: url("https://raw.githubusercontent.com/Ambra1720/lumu/icon/GEN.png") !important;
 }
 .blurb ul.required-tags li .category-slash {
-  background-image: url("https://github.com/Ambra1720/lumu/blob/icon/MM.png") !important;
+  background-image: url("https://raw.githubusercontent.com/Ambra1720/lumu/icon/MM.png") !important;
 }
 .blurb ul.required-tags li .category-femslash {
-  background-image: url("https://github.com/Ambra1720/lumu/blob/icon/FF.png") !important;
+  background-image: url("https://raw.githubusercontent.com/Ambra1720/lumu/icon/FF.png") !important;
 }
 .blurb ul.required-tags li .category-het {
-  background-image: url("https://github.com/Ambra1720/lumu/blob/icon/FM.png") !important;
+  background-image: url("https://raw.githubusercontent.com/Ambra1720/lumu/icon/FM.png") !important;
 }
 .blurb ul.required-tags li .category-multi {
-  background-image: url("https://github.com/Ambra1720/lumu/blob/icon/Multi.png") !important;
+  background-image: url("https://raw.githubusercontent.com/Ambra1720/lumu/icon/Multi.png") !important;
 }
 .blurb ul.required-tags li .category-other {
-  background-image: url("https://github.com/Ambra1720/lumu/blob/icon/Other.png") !important;
+  background-image: url("https://raw.githubusercontent.com/Ambra1720/lumu/icon/Other.png") !important;
 }
 .blurb ul.required-tags li .warning-yes {
-  background-image: url("https://github.com/Ambra1720/lumu/blob/icon/warning-yes.png") !important;
+  background-image: url("https://raw.githubusercontent.com/Ambra1720/lumu/icon/warning-yes.png") !important;
 }
 .blurb ul.required-tags li .warning-choosenotto {
-  background-image: url("https://github.com/Ambra1720/lumu/blob/icon/warning-cn.png") !important;
+  background-image: url("https://raw.githubusercontent.com/Ambra1720/lumu/icon/warning-cn.png") !important;
 }
 .blurb ul.required-tags li .warning-no {
-  background-image: url("https://github.com/Ambra1720/lumu/blob/icon/no.png") !important;
+  background-image: url("https://raw.githubusercontent.com/Ambra1720/lumu/icon/no.png") !important;
 }
 .blurb ul.required-tags li .external-work {
-  background-image: url("https://github.com/Ambra1720/lumu/blob/icon/external.png") !important;
+  background-image: url("https://raw.githubusercontent.com/Ambra1720/lumu/icon/external.png") !important;
 }
 .blurb ul.required-tags li .complete-yes {
-  background-image: url("https://github.com/Ambra1720/lumu/blob/icon/complete.png") !important;
+  background-image: url("https://raw.githubusercontent.com/Ambra1720/lumu/icon/complete.png") !important;
 }
 .blurb ul.required-tags li .complete-no {
-  background-image: url("https://github.com/Ambra1720/lumu/blob/icon/incomplete.png") !important;
+  background-image: url("https://raw.githubusercontent.com/Ambra1720/lumu/icon/incomplete.png") !important;
 }
 
 /* ===== 书签隐私状态图标 ===== */
 .status .rec {
-  background-image: url("https://github.com/Ambra1720/lumu/blob/icon/rec-star.png") !important;
+  background-image: url("https://raw.githubusercontent.com/Ambra1720/lumu/icon/rec-star.png") !important;
 }
 .status .public {
-  background-image: url("https://github.com/Ambra1720/lumu/blob/icon/public.png") !important;
+  background-image: url("https://raw.githubusercontent.com/Ambra1720/lumu/icon/public.png") !important;
 }
 .status .private {
-  background-image: url("https://github.com/Ambra1720/lumu/blob/icon/private-lock.png") !important;
+  background-image: url("https://raw.githubusercontent.com/Ambra1720/lumu/icon/private-lock.png") !important;
 }
 .status .hidden {
-  background-image: url("https://github.com/Ambra1720/lumu/blob/icon/hidden.png") !important;
+  background-image: url("https://raw.githubusercontent.com/Ambra1720/lumu/icon/hidden.png") !important;
 }
 
 /* ===== 分页箭头 ===== */
 html body #main ol.pagination li.previous a {
-  background-image: url("https://github.com/Ambra1720/lumu/blob/icon/prev.png") !important;
+  background-image: url("https://raw.githubusercontent.com/Ambra1720/lumu/icon/prev.png") !important;
 }
 html body #main ol.pagination li.next a {
-  background-image: url("https://github.com/Ambra1720/lumu/blob/icon/next.png") !important;
+  background-image: url("https://raw.githubusercontent.com/Ambra1720/lumu/icon/next.png") !important;
 }
 
 /* ===== 神秘头像 ===== */
 .mystery.header.picture.module div.icon {
-  background-image: url("https://github.com/Ambra1720/lumu/blob/icon/mystery.png") !important;
+  background-image: url("https://raw.githubusercontent.com/Ambra1720/lumu/icon/mystery.png") !important;
   background-size: contain;
 }
 
@@ -473,7 +472,7 @@ body::after {
 /* ===== 头像容器需为相对定位，以便伪元素叠加 ===== */
 .home .primary.header.module .icon {
   position: relative !important;
-  overflow: visible !important;  /* 让装饰框可以超出头像边界 */
+  overflow: visible !important;
 }
 
 /* ===== 头像外围装饰框 ===== */
@@ -487,7 +486,7 @@ body::after {
   height: 140px !important;
   margin-left: -70px !important;
   margin-top: -70px !important;
-  background-image: url("https://github.com/Ambra1720/lumu/blob/icon/avatar-frame.png.png") !important;
+  background-image: url("https://raw.githubusercontent.com/Ambra1720/lumu/icon/avatar-frame.png") !important;
   background-repeat: no-repeat !important;
   background-position: center !important;
   background-size: contain !important;
@@ -508,4 +507,3 @@ body::after {
   border: 2px solid var(--primary-pink) !important;
   box-shadow: 0 0 0 4px rgba(174, 228, 255, 0.3) !important;
 }
-
